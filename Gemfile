@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.22'
+gem 'rails', '4.2.0'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'angularjs-rails'
@@ -8,18 +8,18 @@ gem 'pry-rails', require: false
 
 group :assets do
   gem "twitter-bootstrap-rails"
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
   gem 'jquery-rails'
   gem 'jquery-ui-rails'
 end
 
 group :development, :test do
   gem 'rspec'
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails'
   gem 'factory_girl_rails'
-  gem 'capybara', '~> 2.4.3'
+  gem 'capybara'
 end
 
 group :test do
