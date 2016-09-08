@@ -1,1 +1,14 @@
+<h1>Wszystkie posty</h1>
 
+<div class="all-posts">
+  <% @posts.each do |post| %>
+    <ul>
+      <li><%= post.title %></li>
+      <li><%= post.content %></li>
+    </ul>
+  <% end %>
+</div>
+
+<div>
+  <%= link_to "Stwórz nowego posta", new_post_path %>
+</div>
