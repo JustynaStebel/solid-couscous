@@ -2,3 +2,6 @@
   =require twitter-bootstrap-static/bootstrap
   =require twitter-bootstrap-static/fontawesome
   */
+textarea.form-control {
+  height: 200px;
+}

@@ -1,4 +1,4 @@
 SolidCouscous::Application.routes.draw do
-  root to: 'dashboard#index'
+  root to: 'posts#index'
   resources :posts
 end
